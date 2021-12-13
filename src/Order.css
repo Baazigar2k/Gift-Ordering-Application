@@ -1,0 +1,63 @@
+.order {
+  padding: 40px;
+  background: url("https://img1.goodfon.com/wallpaper/big/9/6f/minimalizm-gradient-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  position: relative;
+  color: antiquewhite;
+  width: 80%;
+  margin: 3rem auto;
+  box-shadow: 0 0 25px white;
+}
+
+.effect5 {
+  position: relative;
+}
+.effect5:before,
+.effect5:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect5:after {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+.order > h2 {
+  text-align: center;
+  color: rgb(109, 255, 73);
+}
+
+.order__id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.order__total {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: right;
+  color: rgb(226, 168, 253);
+}

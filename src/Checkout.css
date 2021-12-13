@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap");
+
+.checkout {
+  display: flex;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+  /* background-color: white; */
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm309-aew-013_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=2724bd9481a065ee24e7e7eaaabf1c55");
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.checkout__defaultImg {
+  max-height: 200px;
+  width: 40%;
+  object-fit: contain;
+  animation: move_it;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move_it {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5rem);
+  }
+}
+
+.checkout__title {
+  margin-right: 10px;
+  margin-bottom: 4rem;
+  padding: 10px;
+  /* border-bottom: 1px solid lightgray; */
+  font-size: 3rem;
+  font-weight: 700;
+  /* color: rgb(157, 115, 255); */
+  background: -webkit-linear-gradient(rgb(84, 255, 84), rgb(255, 61, 61));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Baloo 2", cursive;
+}
+
+.checkout__left {
+  flex: 0.7;
+}
+
+.checkout__right {
+  flex: 0.3;
+  margin-left: 3rem;
+  color: black;
+  margin-top: 1rem;
+}

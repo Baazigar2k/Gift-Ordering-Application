@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhaijaan+2:wght@700&display=swap");
+
+.payment {
+  /* background-color: white; */
+  background: url("https://c4.wallpaperflare.com/wallpaper/798/402/355/gradient-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding-bottom: 2rem;
+}
+
+.payment__container > h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  /* border-bottom: 1px solid lightgray; */
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(233, 27, 198), rgb(242, 255, 62));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: rgb(243, 162, 55); */
+  font-family: "Baloo 2", cursive;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.payment__container > h2 a {
+  text-decoration: none;
+  color: hsl(209, 89%, 22%);
+}
+
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0 6rem;
+  margin-top: 2rem;
+}
+
+.payment__title {
+  flex: 0.2;
+  color: yellowgreen;
+  font-size: 1.2rem;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+  flex: 0.8;
+}
+
+.payment__details > form {
+  max-width: 400px;
+}
+
+.payment__details > h3 {
+  padding-bottom: 20px;
+}
+
+.payment__btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: #5baf2a;
+  width: 13rem;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 1s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  margin: auto;
+}
+.payment__btn:hover {
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+  background: #09943e;
+}
+
+.payment__tot {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(243, 162, 55);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.move__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1rem;
+  /* border-top: 0.5px solid rgb(145, 255, 94); */
+}
